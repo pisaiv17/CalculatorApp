@@ -13,5 +13,10 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void BtnC_OnClicked(object sender, EventArgs e)
+        {
+            this.Input.Text = "|";
+        }
     }
 }
