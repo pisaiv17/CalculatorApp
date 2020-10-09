@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Data;
 
 namespace Calculator
 {
@@ -13,11 +14,10 @@ namespace Calculator
         {
             InitializeComponent();
         }
-
         
         private void BtnC_OnClicked(object sender, EventArgs e)
         {
-            this.Input.Text = "|";
+            this.Input.Text = "";
         }
 
         private void BtnDivide_OnClicked(object sender, EventArgs e)
@@ -87,7 +87,7 @@ namespace Calculator
 
         private void BtnResult_OnClicked(object sender, EventArgs e)
         {
-            this.Input.Text = "Výsledek";
+            this.Input.Text = new DataTable().Compute(this.Input.Text, null).ToString();
         }
 
         private void BtnDel_OnClicked(object sender, EventArgs e)
