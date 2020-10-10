@@ -118,5 +118,15 @@ namespace Calculator
          {
              this.Input.Text += ".";
          }
+
+         private void BtnLBracket_OnClicked(object sender, EventArgs e)
+         {
+             this.Input.Text += "(";
+         }
+
+         private void BtnRBracket_OnClicked(object sender, EventArgs e)
+         {
+             this.Input.Text += ")";
+         }
     }
 }
