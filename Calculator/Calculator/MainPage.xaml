@@ -5,30 +5,37 @@
              x:Class="Calculator.MainPage">
     <StackLayout BackgroundColor="#2A2A2A">
         <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Center" Wrap="Wrap">
+            
+            <!-- Line 1 -->
             <StackLayout FlexLayout.Basis="95%" HorizontalOptions="FillAndExpand" Padding="100 0 12 0">
                 <Label Text="" FontSize="36" x:Name="Input" LineBreakMode="NoWrap" TextColor="#ffffff" />
             </StackLayout>
-         
+            
+            <!-- Line 2 -->
             <Button Text="C" x:Name="BtnC" Clicked="BtnC_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
             <Button Text="(" x:Name="BtnLBracket" Clicked="BtnLBracket_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
             <Button Text=")" x:Name="BtnRBracket" Clicked="BtnRBracket_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
             <Button Text="/" x:Name="BtnDivide" Clicked="BtnDivide_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#512da8" TextColor="#ffffff" />
             
+            <!-- Line 3 -->
             <Button Text="7" x:Name="Btn7" Clicked="Btn7_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
             <Button Text="8" x:Name="Btn8" Clicked="Btn8_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
             <Button Text="9" x:Name="Btn9" Clicked="Btn9_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
             <Button Text="*" x:Name="BtnMultiple" Clicked="BtnMultiple_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#512da8" TextColor="#ffffff" />
             
+            <!-- Line 4 -->
             <Button Text="4" x:Name="Btn4" Clicked="Btn4_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
             <Button Text="5" x:Name="Btn5" Clicked="Btn5_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
             <Button Text="6" x:Name="Btn6" Clicked="Btn6_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
             <Button Text="+" x:Name="BtnPlus" Clicked="BtnPlus_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#512da8" TextColor="#ffffff" />
-
+            
+            <!-- Line 5 -->
             <Button Text="1" x:Name="Btn1" Clicked="Btn1_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
             <Button Text="2" x:Name="Btn2" Clicked="Btn2_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
             <Button Text="3" x:Name="Btn3" Clicked="Btn3_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
             <Button Text="-" x:Name="BtnMinus" Clicked="BtnMinus_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#512da8" TextColor="#ffffff" />
-
+            
+            <!-- Line 6 -->
             <Button Text="&lt;" x:Name="BtnDel" Clicked="BtnDel_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
             <Button Text="0" x:Name="Btn0" Clicked="Btn0_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />    
             <Button Text="." x:Name="BtnDot" Clicked="BtnDot_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
