@@ -5,8 +5,8 @@
              x:Class="Calculator.MainPage">
     <StackLayout BackgroundColor="#2A2A2A">
         <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="Center" Wrap="Wrap">
-            <StackLayout FlexLayout.Basis="95%" HorizontalOptions="FillAndExpand" Padding="24 0">
-                <Label Text="" FontSize="36" x:Name="Input" TextColor="#ffffff" />
+            <StackLayout FlexLayout.Basis="95%" HorizontalOptions="FillAndExpand" Padding="100 0 12 0">
+                <Label Text="" FontSize="36" x:Name="Input" LineBreakMode="NoWrap" TextColor="#ffffff" />
             </StackLayout>
          
             <Button Text="C" x:Name="BtnC" Clicked="BtnC_OnClicked" Padding="24" FontSize="24" BorderRadius="8" Margin="8" BackgroundColor="#212121" TextColor="#ffffff" />
