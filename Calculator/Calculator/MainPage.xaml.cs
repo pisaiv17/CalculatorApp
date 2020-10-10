@@ -99,7 +99,14 @@ namespace Calculator
  
          private void BtnDel_OnClicked(object sender, EventArgs e)
          {
-             this.Input.Text = this.Input.Text.Remove(this.Input.Text.Length - 1);
+             try
+             {
+                 this.Input.Text = this.Input.Text.Remove(this.Input.Text.Length - 1);
+             }
+             catch (Exception exception)
+             {
+                 this.Input.Text = "";
+             }
          }
  
          private void Btn0_OnClicked(object sender, EventArgs e)
